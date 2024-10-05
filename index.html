@@ -84,7 +84,7 @@
 
       // Send the data to the serverless function
       try {
-        const response = await fetch('/api/submitform', {
+        const response = await fetch('/submitform', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(formData)
